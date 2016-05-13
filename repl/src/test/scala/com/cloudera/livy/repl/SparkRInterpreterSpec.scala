@@ -76,7 +76,7 @@ class SparkRInterpreterSpec extends BaseInterpreterSpec {
   it should "report an error if accessing an unknown variable" in withInterpreter { interpreter =>
     val response = interpreter.execute("x")
     response should equal(Interpreter.ExecuteSuccess(
-      TEXT_PLAIN -> "Error: object 'x' not found"
+      TEXT_PLAIN -> "Objekt 'x' nicht gefunden"
     ))
   }
 
