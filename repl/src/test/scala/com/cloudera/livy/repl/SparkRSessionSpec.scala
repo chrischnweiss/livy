@@ -130,7 +130,7 @@ class SparkRSessionSpec extends BaseSessionSpec {
       "status" -> "ok",
       "execution_count" -> 0,
       "data" -> Map(
-        "text/plain" -> "Objekt 'x' nicht gefunden"
+        "text/plain" -> "Fehler: Objekt 'x' nicht gefunden"
       )
     ))
 
